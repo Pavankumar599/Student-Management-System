@@ -18,13 +18,6 @@ Student Management System is a backend application built with Java and Spring Bo
 - Spring Data JPA
 - Maven
 
-## Project Structure
-
-src/main/java/com/yourname/studentmanagement/
-├── controller/ # REST Controllers
-├── service/ # Business logic layer
-├── repository/ # Data access layer
-├── model/ # Entity classes
 
 
 
@@ -40,9 +33,11 @@ src/main/java/com/yourname/studentmanagement/
    git clone <repo-url>
 
 ### Navigate to the project directory
+```bash
 cd student-management-system
 
 ### Build and run the application
+```bash
 ./mvnw spring-boot:run
 
 ### Access the APIs at http://localhost:8080/api/students
