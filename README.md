@@ -35,9 +35,10 @@ Student Management System is a backend application built with Java and Spring Bo
 ### Navigate to the project directory
 ```bash
 cd student-management-system
-
+```
 ### Build and run the application
 ```bash
 ./mvnw spring-boot:run
+```
 
 ### Access the APIs at http://localhost:8080/api/students
